@@ -14,11 +14,11 @@ response = requests.get(API,params)
 
 data = json.loads(response.text)
 
- title = data['name']
+title = data['name']
 
- rating = data['rating']
+rating = data['rating']
 
- poster link = data['poster']
+poster link = data['poster']
 
   
 
