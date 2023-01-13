@@ -18,15 +18,15 @@ title = data['name']
 
 rating = data['rating']
 
-poster link = data['poster']
+poster = data['poster']
 
   
 
- print(title)
+print(title)
 
- print(data)
+print(data)
 
- print(poster)
+print(poster)
 
   
 
