@@ -6,7 +6,7 @@ NAME = input("enter name")
 params = {"query" : NAME}
 
 response = requests.get(API,params)
- data = json.loads(response.text)
+  data = json.loads(response.text)
   title = data['name']
   rating = data['rating']
   poster link = data['poster']
