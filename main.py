@@ -14,7 +14,7 @@ response = requests.get(API,params)
 
 data = json.loads(response.text)
 
-title = data['name']
+runtime = data['runtime']
 
 rating = data['rating']
 
